@@ -13,7 +13,7 @@ int main(){
   for(i=0;i<2;i++){
     fgets(s,256,fp);
     sscanf(s,"%d%d",&rr,&pp);
-    fprintf(fp2,"%d %d\n",rr,pp*2);
+    fprintf(fp2,"%d %d\n",rr,pp);
   }
   fclose(fp);
   fclose(fp2);
